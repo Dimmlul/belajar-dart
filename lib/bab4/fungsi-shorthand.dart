@@ -6,5 +6,5 @@ void main() {
   print('div(15.0, 3.0): ${div(15.0, 3.0)}');
   print('concat("Dart", "Programming Language"): '+
   concat("Dart", "Programming Language"));
-  print('odd(9): ${odd(9)}');
+  print('odd(9): ${odd(10)}');
 }
