@@ -7,7 +7,8 @@ void validateEmail(String email) {
 void main() {
   try {
     validateEmail("example.com"); // Memicu eksepsi
-  } catch (e) {
+  } catch (e , stackTrace) {
     print("Kesalahan tertangkap: $e");
+    print("$stackTrace");
   }
 }
