@@ -1,6 +1,6 @@
 void main() {
 
-// PENGENAL KONSTANTA ADA 2 YAITA FINAL DAN CONST 
+// PENGENAL KONSTANTA ADA 2 YAITU FINAL DAN CONST 
 
 
   // Menggunakan kata kunci final 

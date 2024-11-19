@@ -7,8 +7,7 @@ void validateNameLength(String name) {
 void main() {
   try {
     validateNameLength("DimasPradiptaMulyaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
-  } catch (e, stackTrace) {
+  } catch (e) {
     print("Kesalahan: $e");
-    print("Stack trace: $stackTrace");
   }
 }

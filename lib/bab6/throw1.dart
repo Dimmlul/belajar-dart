@@ -6,7 +6,7 @@ void validateAge(int age) {
 
 void main() {
   try {
-    validateAge(15); // Memicu eksepsi karena umur kurang dari 18
+    validateAge(16); // Memicu eksepsi karena umur kurang dari 18
   } catch (e) {
     print("Kesalahan: $e");
   }
