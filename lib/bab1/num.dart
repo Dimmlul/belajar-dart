@@ -3,9 +3,9 @@ void main() {
   num a = 13;
   num b = 13.45;
 
-  print('Nilai a: $a');
-  print('Tipe a: ${a.runtimeType.toString()}');
+  print('angka pertama: $a');
+  print('Tipe angka pertama: ${a.runtimeType.toString()}');
 
-  print('Nilai b: $b');
-  print('Tipe b: ${b.runtimeType.toString()}');
+  print('angka kedua: $b');
+  print('Tipe angka kedua: ${b.runtimeType.toString()}');
 }
